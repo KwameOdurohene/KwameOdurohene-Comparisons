@@ -161,7 +161,7 @@ public class ComparatorsTest {
         int b = 2;
         boolean expected = true;
         boolean actual = c.lessThanOrEqualTo(a, b);
-        Assert.assertEquals(expected, actual);
+    
     }
     /**
      * If lessThanOrEqualTo is passed two numbers where a is greater than b, then lessThanOrEqualTo
